@@ -1,16 +1,7 @@
 require 'yaml'
 require_relative 'board'
 require_relative 'pieces'
-=begin
-TODO LIST
-assignment says to save board so need to check back to hangman for serialzing and saving and loading and stuff
 
-checkmate? needs to account for kings moves
-
-investigate 4.times loop for bishop and rook moves, what a freaking brain blast
-
-clean shit up in board.rb maybe, its a mess in there i.e figure out that reversing shit, split up methods maybe make testing for this loop easier
-=end
 unless Dir.exist?('Saves')
   Dir.mkdir('Saves')
 end

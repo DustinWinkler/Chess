@@ -399,7 +399,6 @@ class Board
         end
       end
     end
-    [checks1, checks2] # checkmate is true if checks1.all? || checks2.all? == true 1 refers to player 1 and 2 refers to player 2
+    [checks1, checks2] 
   end
-
 end
